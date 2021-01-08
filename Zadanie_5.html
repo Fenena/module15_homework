@@ -112,7 +112,7 @@
           const { coords } = position;
           const latitude = position.coords.latitude;
           const longitude = position.coords.longitude;
-          const messageLocal = `<a href="https://www.openstreetmap.org/#map=18/${latitude}/${longitude}">Гео-локация</a>`;
+          const messageLocal = `<a href="https://www.openstreetmap.org/#map=18/${latitude}/${longitude}" target="_blank">Гео-локация</a>`;
           writeToChat(messageLocal, false);
         })
       }
